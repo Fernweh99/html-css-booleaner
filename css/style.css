@@ -1,5 +1,5 @@
 /* Generics */
-.container{
+.container {
     width: 1000px;
     margin: auto;
 }
@@ -9,16 +9,43 @@ body {
 }
 
 /* header */
-header{
+header {
     background: cornflowerblue url(../img/pattern.png) center top repeat;
     background-size: 400px;
     height: 90px;
     padding: 10px;
 }
 
-#logo-head{
+#logo-head {
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     height: 55px;
     margin-top: 35px;
+}
+
+/* main */
+figure {
+    margin: 12px 0 0 0;
+}
+#title {
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+#info-title {
+    color: rgba(158, 102, 69, 0.685);
+    font-weight:700;
+    font-size: 19px;
+}
+
+#author {
+    color: rgba(0, 120, 189, 0.781);
+}
+
+#data {
+    font-size: 14px;
+}
+
+#info-foto {
+    font-size: 12px;
 }
