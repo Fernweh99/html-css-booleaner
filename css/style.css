@@ -87,3 +87,31 @@ thead{
 th {
     font-weight: normal;
 }
+
+/* Footer */
+footer {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(175, 129, 73);
+}
+.other {
+    font-size: 20px;
+    color: white;
+}
+
+.page2 {
+    width: 270px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-image: url(../img/graph.jpg);
+    padding: 15px;
+}
+.page1 {
+    width: 270px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-image: url(../img/monitor.jpg);
+    margin: 10px 0;
+    padding: 15px;
+}
