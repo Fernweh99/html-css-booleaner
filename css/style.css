@@ -1,0 +1,24 @@
+/* Generics */
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+header{
+    background: cornflowerblue url(../img/pattern.png) center top repeat;
+    background-size: 400px;
+    height: 90px;
+    padding: 10px;
+}
+
+#logo-head{
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height: 55px;
+    margin-top: 35px;
+}
