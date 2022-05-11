@@ -8,7 +8,6 @@ body {
     margin: 0;
 }
 
-/* header */
 header {
     background: cornflowerblue url(../img/pattern.png) center top repeat;
     background-size: 400px;
@@ -16,24 +15,30 @@ header {
     padding: 10px;
 }
 
-#logo-head {
-    background-image: url(../img/logo.svg);
-    background-repeat: no-repeat;
-    height: 55px;
-    width: 1000px;
-    margin: auto;
-    margin-top: 35px;
-}
-
-/* main */
 figure {
     margin: 12px 0 0 0;
 }
 
+footer {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(175, 129, 73);
+}
 
+/* header */
+#logo-head {
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height: 55px;
+    margin-top: 35px;
+}
+
+/* main */
 .evidenziato{
     background-color: yellow;
 }
+
 #title {
     font-size: 38px;
     margin-bottom: 0;
@@ -91,12 +96,6 @@ th {
 }
 
 /* Footer */
-footer {
-    margin-bottom: 30px;
-    font-weight: bold;
-    font-size: 18px;
-    color: rgb(175, 129, 73);
-}
 .other {
     font-size: 20px;
     color: white;
