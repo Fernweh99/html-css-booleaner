@@ -1,20 +1,33 @@
 /* Generics */
-.container {
-    width: 1000px;
-    margin: auto;
-}
-
-body {
-    margin: 0;
-}
-
-/* header */
 header {
     background: cornflowerblue url(../img/pattern.png) center top repeat;
     background-size: 400px;
     height: 90px;
     padding: 10px;
 }
+
+body {
+    margin: 0;
+}
+
+figure {
+    margin: 12px 0 0 0;
+}
+
+footer {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(175, 129, 73);
+}
+
+/* Utilis */
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/* header */
 
 #logo-head {
     background-image: url(../img/logo.svg);
@@ -26,10 +39,6 @@ header {
 }
 
 /* main */
-figure {
-    margin: 12px 0 0 0;
-}
-
 
 .evidenziato{
     background-color: yellow;
@@ -91,12 +100,6 @@ th {
 }
 
 /* Footer */
-footer {
-    margin-bottom: 30px;
-    font-weight: bold;
-    font-size: 18px;
-    color: rgb(175, 129, 73);
-}
 .other {
     font-size: 20px;
     color: white;
